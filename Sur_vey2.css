@@ -1,0 +1,74 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin:0px;
+}
+.colum1,.colum2,.colum3,.colum4
+{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+
+.fix1,.fix2,.fix3,.fix4
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 0.6em;
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+}
+.first,.second,.third
+{
+    background-color:bisque ;
+    margin-top: -1.2em;
+    padding: 0%;
+    text-align: center;
+}
+.second,.third
+{
+    background-color:black ;
+    color: white;
+}  
+.first h2,.second h2,.third h2
+{
+    padding: 3em;
+    text-align: center;
+}
+.first p,.second p,.third p
+{
+    line-height: 1.8em;
+    margin-top: -4em ;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom:7%;
+    margin-bottom: -2em;
+}
+.colum1,.colum4
+{
+    background-image: url("Top.jpg");
+    height: 750px;
+}
+.colum2
+{
+    background-image: url("Road.jpg");
+    height:400px;
+}
+.colum3
+{
+    background-image: url("Building.jpg");
+    height: 400px;
+}
+.fix1,.fix4
+{
+    background-color: black;  
+}
