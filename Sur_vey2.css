@@ -68,7 +68,7 @@ body
     background-image: url("Building.jpg");
     height: 400px;
 }
-.fix1,.fix4
+.fix1,.fix4//background color black
 {
     background-color: black;  
 }
